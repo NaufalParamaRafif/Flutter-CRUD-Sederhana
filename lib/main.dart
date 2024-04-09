@@ -1,20 +1,9 @@
+import 'package:crud_sederhana_flutter/belajar/belajar_crud_sederhana.dart';
+import 'package:crud_sederhana_flutter/belajar/belajar_mapping_widget.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MainApp());
-}
-
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
-    );
-  }
+  runApp(MaterialApp(
+    home: BelajarCRUDSederhana(),
+  ));
 }
